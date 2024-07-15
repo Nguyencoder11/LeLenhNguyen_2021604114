@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<kqht>
+	<namhoc nam="2009">
+		<lop malop="ktpm5-k9" gvcn="Trần Mai Linh">
+			<sv>
+				<info>
+					<hoten>Nguyễn Việt Đức</hoten>
+					<ngaysinh>1997-03-05</ngaysinh>
+				</info>
+				<monhoc>
+					<mon tenmon="Toán" stt="1">
+						<diem>
+							<lan1>5</lan1>
+							<lan2>6</lan2>
+							<canam>8</canam>
+						</diem>
+					</mon>
+					<mon tenmon="Văn" stt="2">
+						<diem>
+							<lan1>7</lan1>
+							<lan2>8</lan2>
+							<canam>4</canam>
+						</diem>
+					</mon>
+					<mon tenmon="Ngoại ngữ" stt="3">
+						<diem>
+							<lan1>3</lan1>
+							<lan2>5</lan2>
+							<canam>5</canam>
+						</diem>
+					</mon>
+					<mon tenmon="Sử" stt="4">
+						<diem>
+							<lan1>2</lan1>
+							<lan2>5</lan2>
+							<canam>3</canam>
+						</diem>
+					</mon>
+					<mon tenmon="Sinh" stt="5">
+						<diem>
+							<lan1>8</lan1>
+							<lan2>8</lan2>
+							<canam>4</canam>
+						</diem>
+					</mon>
+					<mon tenmon="Tổng kết" stt="6">
+						<diem>
+							<lan1>6</lan1>
+							<lan2>7</lan2>
+							<canam>7</canam>
+						</diem>
+					</mon>
+				</monhoc>
+				<xeploai>
+					<hocluc>Trung bình</hocluc>
+					<hanhkiem>Khá</hanhkiem>
+				</xeploai>
+			</sv>
+		</lop>
+	</namhoc>
+</kqht>

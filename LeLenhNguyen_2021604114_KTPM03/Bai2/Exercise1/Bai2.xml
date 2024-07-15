@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<datn>
+	<mau so="121" ngaygiao="2017-09-02" ngayht="2017-09-03" gvhd="Trần Thanh Hùng">
+		<school>
+			<title>Bộ Công thương</title>
+			<name>Trường Đại học Công nghiệp Hà Nội</name>
+		</school>
+		<country>
+			<name>Cộng hòa xã hội chủ nghĩa Việt Nam</name>
+			<desc>Độc lập - Tự do - Hạnh phúc</desc>
+		</country>
+		<student>
+			<info>
+				<fullname>Nguyễn Văn Bắc</fullname>
+				<class>HTTT2 - K10</class>
+				<classyear>10</classyear>
+				<major>CNTT</major>
+			</info>
+			<content>
+				<banve tenbanve="A" stt="1">
+					<yeucau>
+						<khogiay>A3</khogiay>
+						<soluong>5</soluong>
+					</yeucau>
+				</banve>
+				<banve tenbanve="B" stt="2">
+					<yeucau>
+						<khogiay>A4</khogiay>
+						<soluong>5</soluong>
+					</yeucau>
+				</banve>
+				<banve tenbanve="C" stt="3">
+					<yeucau>
+						<khogiay>A1</khogiay>
+						<soluong>1</soluong>
+					</yeucau>
+				</banve>
+				<banve tenbanve="D" stt="4">
+					<yeucau>
+						<khogiay>A0</khogiay>
+						<soluong>1</soluong>
+					</yeucau>
+				</banve>
+			</content>
+			<thuyetminh>
+				<noidung>
+					abc
+				</noidung>
+			</thuyetminh>
+		</student>
+	</mau>
+</datn>
