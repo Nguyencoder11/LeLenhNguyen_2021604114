@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
-<?xml-stylesheet type="text/html" href="Mau.xslt"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Mau.xslt"?>
 
 <mau xmlns="http://tempuri.org/Mau.xsd">
 	<khoa>
@@ -73,3 +73,4 @@
 		</phong>
 	</khoa>
 </mau>
+
