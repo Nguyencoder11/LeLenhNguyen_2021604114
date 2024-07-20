@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="nhanvien.xslt"?>
+<congty>
+	<donvi madv="a01">
+		<tendv>Phòng tổ chức</tendv>
+		<dienthoai>0436943034</dienthoai>
+		<nhanvien>
+			<manv>tc01</manv>
+			<hoten>Lê Thu Hà</hoten>
+			<ngaysinh>1988-12-12</ngaysinh>
+			<gioitinh>nữ</gioitinh>
+			<hsluong>2.34</hsluong>
+		</nhanvien>
+		<nhanvien>
+			<manv>tc02</manv>
+			<hoten>Trịnh Thu Hà</hoten>
+			<ngaysinh>1988-12-12</ngaysinh>
+			<gioitinh>nữ</gioitinh>
+			<hsluong>3.34</hsluong>
+		</nhanvien>
+	</donvi>
+	<donvi madv="a02">
+		<tendv>Phòng kế hoạch</tendv>
+		<dienthoai>0436943034</dienthoai>
+		<nhanvien>
+			<manv>kh01</manv>
+			<hoten>Lê Thu Hằng</hoten>
+			<ngaysinh>1988-12-12</ngaysinh>
+			<gioitinh>nữ</gioitinh>
+			<hsluong>5.34</hsluong>
+		</nhanvien>
+		<nhanvien>
+			<manv>kh02</manv>
+			<hoten>Trịnh Thu Hà</hoten>
+			<ngaysinh>1988-12-12</ngaysinh>
+			<gioitinh>nữ</gioitinh>
+			<hsluong>4.34</hsluong>
+		</nhanvien>
+	</donvi>
+</congty>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Mau"
+    targetNamespace="http://tempuri.org/Mau.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Mau.xsd"
+    xmlns:mstns="http://tempuri.org/Mau.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="sdtType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="0[1-9][0-9]{8}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="mahosoType">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="[a-zA-Z0-9]{3,10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="sophongType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[1-9][0-9]{2}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="dcType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="bnType">
+		<xs:sequence>
+			<xs:element name="hoten" type="xs:string"></xs:element>
+			<xs:element name="diachi" type="dcType"></xs:element>
+			<xs:element name="sdt" type="sdtType"></xs:element>
+			<xs:element name="ngaynhapvien" type="xs:date"></xs:element>
+			<xs:element name="songaynamvien" type="xs:int"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="mahoso" type="mahosoType" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="dsbnType">
+		<xs:sequence>
+			<xs:element name="benhnhan" type="mstns:bnType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="phongType">
+		<xs:sequence>
+			<xs:element name="sophong" type="sophongType"></xs:element>
+			<xs:element name="DSBN" type="mstns:dsbnType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="ktype">
+		<xs:sequence>
+			<xs:element name="tenkhoa" type="xs:string"></xs:element>
+			<xs:element name="truongkhoa" type="xs:string"></xs:element>
+			<xs:element name="phong" type="phongType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="khoaType">
+		<xs:sequence>
+			<xs:element name="khoa" type="mstns:ktype" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType> 
+
+	<xs:element name="mau" type="mstns:khoaType"></xs:element>
+	
+</xs:schema>

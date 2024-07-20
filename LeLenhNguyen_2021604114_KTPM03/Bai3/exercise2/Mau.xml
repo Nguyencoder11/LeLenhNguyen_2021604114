@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/html" href="Mau.xslt"?>
+
+<mau xmlns="http://tempuri.org/Mau.xsd">
+	<khoa>
+		<tenkhoa>Ngoai</tenkhoa>
+		<truongkhoa>Nguyen Van A</truongkhoa>
+		<phong>
+			<sophong>503</sophong>
+			<DSBN>
+				<benhnhan mahoso="BN001">
+					<hoten>Le Thu Ha</hoten>
+					<diachi>Thai Binh</diachi>
+					<sdt>0344634894</sdt>
+					<ngaynhapvien>2019-04-15</ngaynhapvien>
+					<songaynamvien>10</songaynamvien>
+				</benhnhan>
+				<benhnhan mahoso="bN001">
+					<hoten>Le Thu Ha</hoten>
+					<diachi>Thai Binh</diachi>
+					<sdt>0344634894</sdt>
+					<ngaynhapvien>2019-04-15</ngaynhapvien>
+					<songaynamvien>10</songaynamvien>
+				</benhnhan>
+			</DSBN>
+		</phong>
+		<phong>
+			<sophong>403</sophong>
+			<DSBN>
+				<benhnhan mahoso="BN002">
+					<hoten>Le Thu Ha</hoten>
+					<diachi>Thai Binh</diachi>
+					<sdt>0344634894</sdt>
+					<ngaynhapvien>2019-04-15</ngaynhapvien>
+					<songaynamvien>10</songaynamvien>
+				</benhnhan>
+				<benhnhan mahoso="BN007">
+					<hoten>Le Thu Ha</hoten>
+					<diachi>Thai Binh</diachi>
+					<sdt>0344634894</sdt>
+					<ngaynhapvien>2019-04-15</ngaynhapvien>
+					<songaynamvien>10</songaynamvien>
+				</benhnhan>
+			</DSBN>
+		</phong>
+	</khoa>
+	<khoa>
+		<tenkhoa>Phụ sản</tenkhoa>
+		<truongkhoa>Nguyen Van A</truongkhoa>
+		<phong>
+			<sophong>203</sophong>
+			<DSBN>
+				<benhnhan mahoso="S002">
+					<hoten>Le Thu Ha</hoten>
+					<diachi>Thai Binh</diachi>
+					<sdt>0344634894</sdt>
+					<ngaynhapvien>2019-04-15</ngaynhapvien>
+					<songaynamvien>10</songaynamvien>
+				</benhnhan>
+			</DSBN>
+		</phong>
+		<phong>
+			<sophong>206</sophong>
+			<DSBN>
+				<benhnhan mahoso="S004">
+					<hoten>Le Thu Ha</hoten>
+					<diachi>Thai Binh</diachi>
+					<sdt>0344634894</sdt>
+					<ngaynhapvien>2019-04-15</ngaynhapvien>
+					<songaynamvien>10</songaynamvien>
+				</benhnhan>
+			</DSBN>
+		</phong>
+	</khoa>
+</mau>

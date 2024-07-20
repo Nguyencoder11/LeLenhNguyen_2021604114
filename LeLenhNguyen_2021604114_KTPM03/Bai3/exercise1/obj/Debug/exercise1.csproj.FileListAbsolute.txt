@@ -1,0 +1,9 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\bin\Debug\exercise1.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\bin\Debug\exercise1.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\bin\Debug\exercise1.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\obj\Debug\exercise1.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\obj\Debug\exercise1.Properties.Resources.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\obj\Debug\exercise1.csproj.GenerateResource.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\obj\Debug\exercise1.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\obj\Debug\exercise1.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai3\exercise1\obj\Debug\exercise1.pdb

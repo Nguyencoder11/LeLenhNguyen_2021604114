@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="danhsach.xslt"?>
+<DS>
+	<congty TenCT="Công ty dược Nam Hà">
+		<donvi>
+			<madv>A01</madv>
+			<tendv>Phòng tổ chức</tendv>
+			<dienthoai>0437920320</dienthoai>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Trịnh Thu Hà</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nữ</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>tc02</manv>
+				<hoten>Đặng Thu Hà</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nữ</gioitinh>
+				<ngaycong>26</ngaycong>
+			</nhanvien>
+		</donvi>
+		<donvi>
+			<madv>A02</madv>
+			<tendv>Phòng kế hoạch</tendv>
+			<dienthoai>0437920320</dienthoai>
+			<nhanvien>
+				<manv>kh01</manv>
+				<hoten>Trịnh Thành Nam</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nam</gioitinh>
+				<ngaycong>25</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>kh02</manv>
+				<hoten>Đặng Văn Nam</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nam</gioitinh>
+				<ngaycong>30</ngaycong>
+			</nhanvien>
+		</donvi>
+	</congty>
+	<congty TenCT="Công ty TNHH Phú Anh">
+		<donvi>
+			<madv>DV01</madv>
+			<tendv>Phòng marketing</tendv>
+			<dienthoai>0437920320</dienthoai>
+			<nhanvien>
+				<manv>m01</manv>
+				<hoten>Trịnh Thu Hà</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nữ</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>m02</manv>
+				<hoten>Đặng Thu Hà</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nữ</gioitinh>
+				<ngaycong>26</ngaycong>
+			</nhanvien>
+		</donvi>
+		<donvi>
+			<madv>DV02</madv>
+			<tendv>Phòng phát triển</tendv>
+			<dienthoai>0437920320</dienthoai>
+			<nhanvien>
+				<manv>kh01</manv>
+				<hoten>Trịnh Thành Nam</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nam</gioitinh>
+				<ngaycong>25</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>kh02</manv>
+				<hoten>Đặng Văn Nam</hoten>
+				<ngaysinh>1988-02-14</ngaysinh>
+				<gioitinh>Nam</gioitinh>
+				<ngaycong>30</ngaycong>
+			</nhanvien>
+		</donvi>
+	</congty>
+</DS>
