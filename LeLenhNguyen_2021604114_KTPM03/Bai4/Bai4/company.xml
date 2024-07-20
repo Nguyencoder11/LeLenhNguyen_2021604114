@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<company xmlns="http://tempuri.org/company.xsd">
+	<employee id="E01" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E02" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E03" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E04" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E05" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E06" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E07" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E08" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E09" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	<employee id="E10" gender="Male">
+		<name>Le Van Nam</name>
+		<userid>Haisaki</userid>
+		<phone>283-283-8923</phone>
+		<salary>1000</salary>
+		<address>Ha Noi</address>
+	</employee>
+	
+</company>

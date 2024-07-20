@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="company"
+    targetNamespace="http://tempuri.org/company.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/company.xsd"
+    xmlns:mstns="http://tempuri.org/company.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:simpleType name="nameStyle">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="3"/>
+			<xs:pattern value="[A-Za-z ]+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="phoneStyle">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}-\d{3}-\d{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="userId">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="6"/>
+			<xs:pattern value="[A-Za-z][A-Za-z0-9]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="salaryStyle">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="1000"/>
+			<xs:maxInclusive value="2000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="addressStyle">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Ha Noi"/>
+			<xs:enumeration value="Hai Phong"/>
+			<xs:enumeration value="Quang Ninh"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="genderStyle">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Male"/>
+			<xs:enumeration value="Female"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="empStyle">
+		<xs:sequence>
+			<xs:element name="name" type="nameStyle"></xs:element>
+			<xs:element name="userid" type="userId"></xs:element>
+			<xs:element name="phone" type="phoneStyle"></xs:element>
+			<xs:element name="salary" type="salaryStyle"></xs:element>
+			<xs:element name="address" type="addressStyle"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+		<xs:attribute name="gender" type="genderStyle" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="comStyle">
+		<xs:sequence>
+			<xs:element name="employee" minOccurs="10" maxOccurs="50" type="empStyle"></xs:element>
+		</xs:sequence>
+		
+	</xs:complexType>
+	
+	<xs:element name="company" type="comStyle"></xs:element>
+</xs:schema>

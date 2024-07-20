@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSV"
+    targetNamespace="http://tempuri.org/DSSV.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DSSV.xsd"
+    xmlns:mstns="http://tempuri.org/DSSV.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:element name="BangKQ" type="bangType"></xs:element>
+	<xs:complexType name="bangType">
+		<xs:sequence>
+			<xs:element name="Lop" type="hocType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Namhoc" type="xs:int"/>
+	</xs:complexType>
+	<xs:complexType name="hocType">
+		<xs:sequence>
+			<xs:element name="gvcn" type="gcvnType"/>
+			<xs:element name="dssv" type="dsType"/>
+		</xs:sequence>
+		<xs:attribute name="TenLop" use="required" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="dsType">
+		<xs:sequence>
+			<xs:element name="sinhvien" type="svType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="svType">
+		<xs:sequence>
+			<xs:element name="hoten" type="xs:string"></xs:element>
+			<xs:element name="ngaysinh" type="xs:date"></xs:element>
+			<xs:element name="kqht" type="kqhtType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="masv" type="masvType" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="kqhtType">
+		<xs:sequence>
+			<xs:element name="monhoc" type="monStyle" maxOccurs="5" minOccurs="3"></xs:element>
+			<xs:element name="hocluc" type="common"/>
+			<xs:element name="hanhkiem" type="common"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="monStyle">
+		<xs:sequence>
+			<xs:element name="lan1" type="diemType"/>
+			<xs:element name="lan2" type="diemType"></xs:element>
+			<xs:element name="canam" type="diemType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="tenmon" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<xs:simpleType name="masvType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{8}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="gcvnType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Tran Mai Linh"/>
+			<xs:enumeration value="Dang Thi Nhung"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="diemType">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+			<xs:maxInclusive value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="common">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Trung binh"/>
+			<xs:enumeration value="Kha"/>
+			<xs:enumeration value="Gioi"/>
+			<xs:enumeration value="Yeu"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

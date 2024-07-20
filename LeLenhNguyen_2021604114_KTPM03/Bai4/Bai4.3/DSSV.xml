@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BangKQ xmlns="http://tempuri.org/DSSV.xsd" Namhoc="2009">
+	<Lop TenLop="KTPM5-K9">
+		<gvcn>Dang Thi Nhung</gvcn>
+		<dssv>
+			<sinhvien masv="09121111">
+				<hoten>Nguyen Viet Duc</hoten>
+				<ngaysinh>1997-03-05</ngaysinh>
+				<kqht>
+					<monhoc tenmon="Toan">
+						<lan1>5</lan1>
+						<lan2>6</lan2>
+						<canam>8</canam>
+					</monhoc>
+					<monhoc tenmon="Van">
+						<lan1>5</lan1>
+						<lan2>6</lan2>
+						<canam>8</canam>
+					</monhoc>
+					<monhoc tenmon="Anh">
+						<lan1>5</lan1>
+						<lan2>6</lan2>
+						<canam>8</canam>
+					</monhoc>
+					<hocluc>Trung binh</hocluc>
+					<hanhkiem>Kha</hanhkiem>
+				</kqht>
+			</sinhvien>
+			
+		</dssv>
+	</Lop>
+</BangKQ>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DS xmlns="http://tempuri.org/HoaDonHang.xsd">
+	<HoaDon>
+		<MaHD>HD1</MaHD>
+		<NgayBan>2015-04-25</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Dien tu">
+			<Hang MaHang="H1">
+				<TenHang>Ti vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H2">
+				<TenHang>Tu lanh</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+		</LoaiHang>
+		<LoaiHang MaLoai="B" TenLoai="Gia dung">
+			<Hang MaHang="HK1">
+				<TenHang>Ti vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="AH2">
+				<TenHang>Tu lanh</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+</DS>
