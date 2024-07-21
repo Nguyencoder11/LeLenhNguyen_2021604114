@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="BenhNhan.xslt" ?>
+<BVDK xmlns="http://tempuri.org/BenhNhan.xsd">
+	<Khoa>
+		<TenKhoa>Ngoai</TenKhoa>
+		<Phong>302</Phong>
+		<BenhNhan MasoBN="BN01">
+			<HoTen>Le Van A</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2016-02-23</NgayNhapVien>
+			<NgayDieuTri>4</NgayDieuTri>
+		</BenhNhan>
+		<BenhNhan MasoBN="BN02">
+			<HoTen>Le Van A</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2016-02-23</NgayNhapVien>
+			<NgayDieuTri>10</NgayDieuTri>
+		</BenhNhan>
+	</Khoa>
+	<Khoa>
+		<TenKhoa>Noi</TenKhoa>
+		<Phong>402</Phong>
+		<BenhNhan MasoBN="BN03">
+			<HoTen>Le Van A</HoTen>
+			<GioiTinh>Nu</GioiTinh>
+			<NgayNhapVien>2016-02-23</NgayNhapVien>
+			<NgayDieuTri>14</NgayDieuTri>
+		</BenhNhan>
+		<BenhNhan MasoBN="BN04">
+			<HoTen>Le Van A</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2016-02-23</NgayNhapVien>
+			<NgayDieuTri>7</NgayDieuTri>
+		</BenhNhan>
+	</Khoa>
+</BVDK>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="MonHoc.xslt"?>
+<DSMH xmlns="http://tempuri.org/MonHoc.xsd">
+	<MonHoc MaMon="CSDL">
+		<TenMon>Co so du lieu</TenMon>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc MaMon="MCB">
+		<TenMon>Mang can ban</TenMon>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc MaMon="THDC">
+		<TenMon>Tin hoc dai cuong</TenMon>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc MaMon="THVP">
+		<TenMon>Tin hoc van phong</TenMon>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc MaMon="XLA">
+		<TenMon>Xu ly anh</TenMon>
+		<SoGio>45</SoGio>
+	</MonHoc>
+</DSMH>

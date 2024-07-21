@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet  type="text/xsl" href="SinhVien.xslt"?>
+<DSSV xmlns="http://tempuri.org/SinhVien.xsd">
+	<Lop MaLop="CNTT14">
+		<Sinhvien MaSV="sv03">
+			<Ten>Vuong Chi Dung</Ten>
+			<Gioitinh>Nam</Gioitinh>
+			<Ngaysinh>1991-04-14</Ngaysinh>
+		</Sinhvien>
+		<Sinhvien MaSV="sv01">
+			<Ten>Phan Tuan Cuong</Ten>
+			<Gioitinh>Nam</Gioitinh>
+			<Ngaysinh>1993-03-03</Ngaysinh>
+		</Sinhvien>
+		<Sinhvien MaSV="sv02">
+			<Ten>Huynh Chi Tam</Ten>
+			<Gioitinh>Nam</Gioitinh>
+			<Ngaysinh>1993-03-08</Ngaysinh>
+		</Sinhvien>
+	</Lop>
+	<Lop MaLop="TCKT14">
+		<Sinhvien MaSV="sv05">
+			<Ten>Truong My Yen Nhi</Ten>
+			<Gioitinh>Nu</Gioitinh>
+			<Ngaysinh>1993-10-03</Ngaysinh>
+		</Sinhvien>
+		<Sinhvien MaSV="sv04">
+			<Ten>Pham Duc Nguyen</Ten>
+			<Gioitinh>Nam</Gioitinh>
+			<Ngaysinh>1993-07-27</Ngaysinh>
+		</Sinhvien>
+		<Sinhvien MaSV="sv06">
+			<Ten>Ho Vo Thanh Tung</Ten>
+			<Gioitinh>Nam</Gioitinh>
+			<Ngaysinh>1990-09-06</Ngaysinh>
+		</Sinhvien>
+	</Lop>
+</DSSV>

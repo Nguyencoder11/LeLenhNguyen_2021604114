@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BenhNhan"
+    targetNamespace="http://tempuri.org/BenhNhan.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/BenhNhan.xsd"
+    xmlns:mstns="http://tempuri.org/BenhNhan.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:element name="BVDK" type="mstns:bvdkType"></xs:element>
+	<xs:complexType name="bvdkType">
+		<xs:sequence>
+			<xs:element name="Khoa" type="mstns:khoaType" maxOccurs="2"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="khoaType">
+		<xs:sequence>
+			<xs:element name="TenKhoa" type="xs:string"></xs:element>
+			<xs:element name="Phong" type="xs:int"></xs:element>
+			<xs:element name="BenhNhan" type="mstns:bnType" maxOccurs="2"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="bnType">
+		<xs:sequence>
+			<xs:element name="HoTen" type="xs:string"/>
+			<xs:element name="GioiTinh" type="gtType"></xs:element>
+			<xs:element name="NgayNhapVien" type="xs:date"></xs:element>
+			<xs:element name="NgayDieuTri" type="songayType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MasoBN" type="xs:ID" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:simpleType name="songayType">
+		<xs:restriction base="xs:int">
+			<xs:minExclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="gtType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Nam"/>
+			<xs:enumeration value="Nu"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
