@@ -1,0 +1,10 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\bin\Debug\Bai4_2.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\bin\Debug\Bai4_2.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\bin\Debug\Bai4_2.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.Form1.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.Properties.Resources.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.csproj.GenerateResource.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Bai4_2\obj\Debug\Bai4_2.pdb

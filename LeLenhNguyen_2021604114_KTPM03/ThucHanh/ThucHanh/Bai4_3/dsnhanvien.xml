@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv01">
+    <hoten>
+      <ho>Lê Thị</ho>
+      <ten>Hà</ten>
+    </hoten>
+    <diachi>27 Hàng Bài, Hà Nội</diachi>
+  </nhanvien>
+  <nhanvien manv="nv03">
+    <hoten>
+      <ho>Nguyễn Đình</ho>
+      <ten>Tăng</ten>
+    </hoten>
+    <diachi>Diễn Châu, Nghệ An</diachi>
+  </nhanvien>
+</ds>

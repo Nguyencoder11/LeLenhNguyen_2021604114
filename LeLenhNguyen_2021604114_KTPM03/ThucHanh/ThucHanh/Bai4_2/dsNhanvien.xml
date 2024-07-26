@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv02">
+    <hoten>Đặng Thu Hà</hoten>
+    <gioitinh>Nữ</gioitinh>
+    <trinhdo>Cao Đẳng</trinhdo>
+    <diachi>27 Hàng Bài, Hà Nội</diachi>
+  </nhanvien>
+  <nhanvien manv="nv01">
+    <hoten>Trần Văn Hùng</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Cao Đẳng</trinhdo>
+    <diachi>27 Hàng Bài, Hà Nội</diachi>
+  </nhanvien>
+</ds>

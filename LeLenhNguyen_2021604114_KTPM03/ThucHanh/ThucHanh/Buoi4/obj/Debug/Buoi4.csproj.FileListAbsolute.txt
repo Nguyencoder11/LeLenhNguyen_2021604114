@@ -1,0 +1,13 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\bin\Debug\Buoi4.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\bin\Debug\Buoi4.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\bin\Debug\Buoi4.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\bin\Debug\aa-ET\Buoi4.resources.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.Form1.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.Properties.Resources.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.Form1.aa-ET.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.csproj.GenerateResource.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\aa-ET\Buoi4.resources.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\ThucHanh\ThucHanh\Buoi4\obj\Debug\Buoi4.pdb
