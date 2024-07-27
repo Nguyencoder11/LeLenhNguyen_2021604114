@@ -1,0 +1,7 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\bin\Debug\Solution3.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\bin\Debug\Solution3.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\bin\Debug\Solution3.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\obj\Debug\Solution3.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\obj\Debug\Solution3.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\obj\Debug\Solution3.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai6\Solution3\obj\Debug\Solution3.pdb
