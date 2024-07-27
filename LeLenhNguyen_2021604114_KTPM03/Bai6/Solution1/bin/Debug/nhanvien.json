@@ -1,0 +1,26 @@
+[
+  {
+    "MaNV": "NV01",
+    "HoTen": "Nguyen Van A",
+    "NgaySinh": "1990-01-01T00:00:00",
+    "GioiTinh": "Nam",
+    "DiaChi": "Hanoi",
+    "HeSoLuong": 1.5
+  },
+  {
+    "MaNV": "NV02",
+    "HoTen": "Tran Thi B",
+    "NgaySinh": "1992-02-02T00:00:00",
+    "GioiTinh": "Nu",
+    "DiaChi": "HCM",
+    "HeSoLuong": 2.0
+  },
+  {
+    "MaNV": "NV03",
+    "HoTen": "Le Van C",
+    "NgaySinh": "1994-03-03T00:00:00",
+    "GioiTinh": "Nam",
+    "DiaChi": "Danang",
+    "HeSoLuong": 1.8
+  }
+]
