@@ -1,0 +1,36 @@
+
+            <!DOCTYPE html>
+            <html lang='en'>
+            <head>
+                <meta charset='UTF-8'>
+                <title>Danh Sách Nhân Viên</title>
+            </head>
+            <body>
+                <h1>Danh Sách Nhân Viên</h1>
+                <div id='nhanvien-list'></div>
+
+                <script>
+                    const nhanvienArray = [
+                        { manv: 'NV01', hoten: 'Nguyen Van D', luong: 5000000, thuong: 1000000, tongluong: 6000000, diachi: { xa: 'Dong Da', huyen: 'Dong Da', tinh: 'Ha Noi' } },
+                        { manv: 'NV02', hoten: 'Tran Thi E', luong: 6000000, thuong: 1500000, tongluong: 7500000, diachi: { xa: 'Le Chan', huyen: 'Le Chan', tinh: 'Hai Phong' } },
+                        { manv: 'NV03', hoten: 'Le Van F', luong: 7000000, thuong: 2000000, tongluong: 9000000, diachi: { xa: 'Lien Chieu', huyen: 'Lien Chieu', tinh: 'Da Nang' } }
+                    ];
+
+                    const nhanvienList = document.getElementById('nhanvien-list');
+                    nhanvienArray.forEach(nhanvien => {
+                        const nhanvienDiv = document.createElement('div');
+                        nhanvienDiv.innerHTML = `
+                            <p>Mã NV: ${nhanvien.manv}</p>
+                            <p>Họ tên: ${nhanvien.hoten}</p>
+                            <p>Lương: ${nhanvien.luong}</p>
+                            <p>Thưởng: ${nhanvien.thuong}</p>
+                            <p>Tổng lương: ${nhanvien.tongluong}</p>
+                            <p>Địa chỉ: Xã ${nhanvien.diachi.xa}, Huyện ${nhanvien.diachi.huyen}, Tỉnh ${nhanvien.diachi.tinh}</p>
+                            <hr>
+                        `;
+                        nhanvienList.appendChild(nhanvienDiv);
+                    });
+                </script>
+            </body>
+            </html>
+        

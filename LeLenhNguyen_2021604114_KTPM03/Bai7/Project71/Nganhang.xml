@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nganhang>
+  <taikhoan>
+    <sotaikhoan>tk001</sotaikhoan>
+    <tentaikhoan>Nguyen Thi Mai Anh</tentaikhoan>
+    <diachi>Ha Noi</diachi>
+    <dienthoai>098734533</dienthoai>
+    <sotien>30000000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>tk02</sotaikhoan>
+    <tentaikhoan>Le Van Duc</tentaikhoan>
+    <diachi>Da Nang</diachi>
+    <dienthoai>0348934023</dienthoai>
+    <sotien>500000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>tk03</sotaikhoan>
+    <tentaikhoan>Nong Quoc Manh</tentaikhoan>
+    <diachi>Lang Son</diachi>
+    <dienthoai>022839232</dienthoai>
+    <sotien>200000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>tk04</sotaikhoan>
+    <tentaikhoan>Nguyen Hai Nam</tentaikhoan>
+    <diachi>Thai Binh</diachi>
+    <dienthoai>033739439</dienthoai>
+    <sotien>3000000</sotien>
+  </taikhoan>
+</nganhang>

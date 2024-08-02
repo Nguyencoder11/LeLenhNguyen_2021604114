@@ -1,0 +1,15 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\bin\Debug\net7.0\Project7.2.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\bin\Debug\net7.0\Project7.2.deps.json
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\bin\Debug\net7.0\Project7.2.runtimeconfig.json
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\bin\Debug\net7.0\Project7.2.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\bin\Debug\net7.0\Project7.2.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.GeneratedMSBuildEditorConfig.editorconfig
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.AssemblyInfoInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.AssemblyInfo.cs
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.sourcelink.json
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\refint\Project7.2.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\Project7.2.genruntimeconfig.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\Bai7\Project7.2\obj\Debug\net7.0\ref\Project7.2.dll

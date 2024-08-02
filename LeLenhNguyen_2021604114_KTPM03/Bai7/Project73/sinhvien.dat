@@ -1,0 +1,23 @@
+[
+  {
+    "MaSV": "SV01",
+    "HoTen": "Nguyen Van A",
+    "Tuoi": 20,
+    "DiaChi": "Ha Noi",
+    "DienThoai": "0123456789"
+  },
+  {
+    "MaSV": "SV02",
+    "HoTen": "Tran Thi B",
+    "Tuoi": 21,
+    "DiaChi": "Hai Phong",
+    "DienThoai": "0987654321"
+  },
+  {
+    "MaSV": "SV03",
+    "HoTen": "Le Van C",
+    "Tuoi": 22,
+    "DiaChi": "Da Nang",
+    "DienThoai": "0912345678"
+  }
+]
