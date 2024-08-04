@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<congty>
+  <nhanvien manv="n02">
+    <hoten>Pham Minh Duc</hoten>
+    <tuoi>20</tuoi>
+    <luong>900</luong>
+    <diachi>
+      <xa>Minh Khai</xa>
+      <huyen>Bac Tu Liem</huyen>
+      <tinh>Ha Noi</tinh>
+    </diachi>
+    <dienthoai>0879928723</dienthoai>
+  </nhanvien>
+  <nhanvien manv="n01">
+    <hoten>Nong Quoc Manh</hoten>
+    <tuoi>21</tuoi>
+    <luong>1500</luong>
+    <diachi>
+      <xa>Khong co</xa>
+      <huyen>khong biet</huyen>
+      <tinh>Lang Son</tinh>
+    </diachi>
+    <dienthoai>02382323232</dienthoai>
+  </nhanvien>
+  <nhanvien manv="n03">
+    <hoten>Nguyen Hai Nam</hoten>
+    <tuoi>20</tuoi>
+    <luong>2000</luong>
+    <diachi>
+      <xa>khong biet</xa>
+      <huyen>Vu Thu</huyen>
+      <tinh>Thai Binh</tinh>
+    </diachi>
+    <dienthoai>0373899292</dienthoai>
+  </nhanvien>
+</congty>
