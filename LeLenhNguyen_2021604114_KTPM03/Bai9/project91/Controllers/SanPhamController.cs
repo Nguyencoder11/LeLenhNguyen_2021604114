@@ -65,5 +65,64 @@ namespace project91.Controllers
             return dsSP;
         }
 
+
+        // Web API luu 1 san pham
+        [HttpPost]
+        public bool LuuSanPham(string masp, string tensp, int dongia, string madm)
+        {
+            try
+            {
+                CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+                SanPham sp = new SanPham
+                {
+                    Ma = masp,
+                    Ten = tensp,
+                    DonGia = dongia,
+                    MaDanhMuc = madm
+                };
+
+                context.SanPhams.InsertOnSubmit(sp);
+                context.SubmitChanges();
+                return true;
+            }
+            catch { }
+            return false;
+        }
+
+        // Web API sua 1 san pham
+        [HttpPut]
+        public bool SuaSanPham(string masp, string tensp, int dongia)
+        {
+            try
+            {
+                CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+                SanPham sp = context.SanPhams.FirstOrDefault(x => x.Ma == masp);
+                if (sp != null) { 
+                    sp.Ten = tensp;
+                    sp.DonGia = dongia;
+                    context.SubmitChanges();
+
+                    return true;
+                }
+            }
+
+            catch { }
+            return false;
+        }
+
+        // Web API xoa 1 san pham
+        [HttpDelete]
+        public bool XoaSanPham(string masp)
+        {
+            CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+            SanPham sp = context.SanPhams.FirstOrDefault(x => x.Ma == masp);
+            if (sp != null) { 
+                context.SanPhams.DeleteOnSubmit(sp);
+                context.SubmitChanges();
+                return true;
+            }
+
+            return false;
+        }
     }
 }

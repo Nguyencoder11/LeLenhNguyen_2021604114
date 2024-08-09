@@ -11,9 +11,6 @@ namespace project91
         {
             // Web API configuration and services
 
-            // Ensure XML formatter is enabled
-            config.Formatters.XmlFormatter.UseXmlSerializer = true;
-
             // Web API routes
             config.MapHttpAttributeRoutes();
 

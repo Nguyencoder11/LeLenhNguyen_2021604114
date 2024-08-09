@@ -13,56 +13,89 @@ namespace project91.Controllers
 
         // Web API lay toan bo danh muc san pham
         [HttpGet]
-        public IHttpActionResult LayToanBoDanhMuc()
+        public List<DanhMuc> LayToanBoDanhMuc()
         {
-            try
+            CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+            List<DanhMuc> danhMucs = context.DanhMucs.ToList();
+            foreach(DanhMuc dm in danhMucs)
             {
-                CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
-                var dsDanhMuc = context.DanhMucs.Select(dm => new
-                {
-                    dm.MaDanhMuc,
-                    dm.TenDanhMuc,
-                    SanPhams = dm.SanPhams.Select(sp => new { sp.Ma, sp.Ten }).ToList() // Customize serialization
-                }).ToList();
+                dm.SanPhams = null;
+            }
 
-                return Ok(dsDanhMuc);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return danhMucs;
         }
-
-
 
         // Web API lay chi tiet mot danh muc san pham
         [HttpGet]
-        public IHttpActionResult ChiTietDanhMuc(string id)
+        public DanhMuc ChiTietDanhMuc(string id)
+        {
+            CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+            DanhMuc dm = context.DanhMucs.FirstOrDefault(x => x.MaDanhMuc == id);
+            if (dm != null)
+            {
+                dm.SanPhams = null;
+            }
+            return dm;
+        }
+
+        // Web API để lưu 1 danh mục
+        [HttpPost]
+        public bool LuuDanhMuc(string madm, string tendm)
         {
             try
             {
                 CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
-                var danhMuc = context.DanhMucs
-                    .Where(dm => dm.MaDanhMuc == id)
-                    .Select(dm => new
-                    {
-                        dm.MaDanhMuc,
-                        dm.TenDanhMuc,
-                        SanPhams = dm.SanPhams.Select(sp => new { sp.Ma, sp.Ten }).ToList() // Customize serialization
-                    })
-                    .FirstOrDefault();
-
-                if (danhMuc == null)
+                DanhMuc dm = new DanhMuc
                 {
-                    return NotFound();
-                }
+                    MaDanhMuc = madm,
+                    TenDanhMuc = tendm
+                };
+                context.DanhMucs.InsertOnSubmit(dm);
+                context.SubmitChanges();
 
-                return Ok(danhMuc);
+                return true;
             }
-            catch (Exception ex)
+
+            catch { }
+            return false;
+        }
+
+
+        // Web API de sua 1 danh muc
+        [HttpPut]
+        public bool SuaDanhMuc(string madm, string tendm)
+        {
+            CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+            DanhMuc dm = context.DanhMucs.FirstOrDefault(x => x.MaDanhMuc == madm);
+
+            if(dm != null)
             {
-                return InternalServerError(ex);
+                dm.TenDanhMuc = tendm;
+                context.SubmitChanges();
+                return true;
             }
+
+            return false;
+        }
+
+
+        // Web API ded xoa 1 danh muc
+        [HttpDelete]
+        public bool XoaDanhMuc(string madm)
+        {
+            try
+            {
+                CSDLTestDataContext context = new CSDLTestDataContext(conn_string);
+                DanhMuc dm = context.DanhMucs.FirstOrDefault(x => x.MaDanhMuc == madm);
+                if (dm != null)
+                {
+                    context.DanhMucs.DeleteOnSubmit(dm);
+                    context.SubmitChanges();
+                    return true;
+                }
+            }
+            catch { }
+            return false;
         }
     }
 }

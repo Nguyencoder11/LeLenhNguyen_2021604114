@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\taowebapi\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|solutionrelative:taowebapi\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\taowebapi\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|solutionrelative:taowebapi\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\taowebapi\\taowebapi\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|solutionrelative:taowebapi\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\taowebapi\\taowebapi\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A425CA68-A945-4789-8F33-6CDAED6593F9}|TaoWebAPI\\TaoWebAPI.csproj|solutionrelative:taowebapi\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 163,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\TaoWebAPI\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "TaoWebAPI\\Controllers\\DanhMucController.cs",
               "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\TaoWebAPI\\Controllers\\DanhMucController.cs",
               "RelativeToolTip": "TaoWebAPI\\Controllers\\DanhMucController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T16:19:19.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SanPhamController.cs",
               "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\TaoWebAPI\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "TaoWebAPI\\Controllers\\SanPhamController.cs",
               "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\TaoWebAPI\\TaoWebAPI\\Controllers\\SanPhamController.cs",
               "RelativeToolTip": "TaoWebAPI\\Controllers\\SanPhamController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCYAAAATAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA3wCYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T15:55:07.949Z",
               "EditorCaption": ""
