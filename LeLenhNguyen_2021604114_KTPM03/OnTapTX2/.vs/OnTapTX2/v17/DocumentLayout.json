@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\OnTapTX2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACA6401-8FF2-43E3-BE16-BAEF5347292B}|OnTapTX2\\OnTapTX2.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\ontaptx2\\ontaptx2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACA6401-8FF2-43E3-BE16-BAEF5347292B}|OnTapTX2\\OnTapTX2.csproj|solutionrelative:ontaptx2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACA6401-8FF2-43E3-BE16-BAEF5347292B}|OnTapTX2\\OnTapTX2.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\ontaptx2\\ontaptx2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ACA6401-8FF2-43E3-BE16-BAEF5347292B}|OnTapTX2\\OnTapTX2.csproj|solutionrelative:ontaptx2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 302,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\OnTapTX2\\OnTapTX2\\Form1.cs",
+              "RelativeDocumentMoniker": "OnTapTX2\\Form1.cs",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\OnTapTX2\\OnTapTX2\\Form1.cs",
+              "RelativeToolTip": "OnTapTX2\\Form1.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAjwMsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:34:36.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\OnTapTX2\\OnTapTX2\\Form1.cs",
+              "RelativeDocumentMoniker": "OnTapTX2\\Form1.cs",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\OnTapTX2\\OnTapTX2\\Form1.cs [Design]",
+              "RelativeToolTip": "OnTapTX2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:22:27.652Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
