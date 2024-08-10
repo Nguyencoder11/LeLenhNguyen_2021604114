@@ -12,4 +12,8 @@
     <hoten>Nong Quoc Manh</hoten>
     <diachi>Lang Son</diachi>
   </nhanvien>
+  <nhanvien manv="nv04">
+    <hoten>Nguyen Dinh Tang</hoten>
+    <diachi>Nghe An</diachi>
+  </nhanvien>
 </ds>

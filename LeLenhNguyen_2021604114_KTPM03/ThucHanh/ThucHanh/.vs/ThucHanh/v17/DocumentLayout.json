@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{215ABC35-85EC-4C5A-97B9-14569045A8D6}|Buoi4\\Buoi4.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\thuchanh\\thuchanh\\buoi4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215ABC35-85EC-4C5A-97B9-14569045A8D6}|Buoi4\\Buoi4.csproj|solutionrelative:buoi4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215ABC35-85EC-4C5A-97B9-14569045A8D6}|Buoi4\\Buoi4.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\thuchanh\\thuchanh\\buoi4\\dsnhanvien.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{215ABC35-85EC-4C5A-97B9-14569045A8D6}|Buoi4\\Buoi4.csproj|solutionrelative:buoi4\\dsnhanvien.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215ABC35-85EC-4C5A-97B9-14569045A8D6}|Buoi4\\Buoi4.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\thuchanh\\thuchanh\\buoi4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215ABC35-85EC-4C5A-97B9-14569045A8D6}|Buoi4\\Buoi4.csproj|solutionrelative:buoi4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 163,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dsnhanvien.xml",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\Buoi4\\dsnhanvien.xml",
+              "RelativeDocumentMoniker": "Buoi4\\dsnhanvien.xml",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\Buoi4\\dsnhanvien.xml",
+              "RelativeToolTip": "Buoi4\\dsnhanvien.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-09T18:08:59.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\Buoi4\\Form1.cs",
+              "RelativeDocumentMoniker": "Buoi4\\Form1.cs",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\Buoi4\\Form1.cs",
+              "RelativeToolTip": "Buoi4\\Form1.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAEwGYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:04:14.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\Buoi4\\Form1.cs",
+              "RelativeDocumentMoniker": "Buoi4\\Form1.cs",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\ThucHanh\\ThucHanh\\Buoi4\\Form1.cs [Design]",
+              "RelativeToolTip": "Buoi4\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:03:57.695Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

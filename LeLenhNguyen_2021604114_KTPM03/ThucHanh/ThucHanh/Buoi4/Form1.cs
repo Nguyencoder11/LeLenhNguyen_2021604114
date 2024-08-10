@@ -31,28 +31,32 @@ namespace Buoi4
             doc.Load(file); // doc file xml
             // Tao doi tuong ds chua cac nut nhanvien
             XmlNodeList DS = doc.SelectNodes("/ds/nhanvien");
-            int sd = 0;
+            // int sd = 0;
 
             dataNhanVien.ColumnCount = 3; // so luong cot datagrid = 3
-            dataNhanVien.Rows.Add();
+            // dataNhanVien.Rows.Add();
 
             // duyet tung nut nhan vien
             foreach (XmlNode nhan_vien in DS)
             {
                 // truy xuat thuoc tinh @manv
-                XmlNode ma_nv = nhan_vien.SelectSingleNode("@manv");
+                //XmlNode ma_nv = nhan_vien.SelectSingleNode("@manv");
                 // dua gia tri ma nhan vien len cot dau tien cua DataGrid
-                dataNhanVien.Rows[sd].Cells[0].Value = ma_nv.InnerText.ToString();
+                //dataNhanVien.Rows[sd].Cells[0].Value = ma_nv.InnerText.ToString();
                 // truy xuat nut ho ten
-                XmlNode ho_ten = nhan_vien.SelectSingleNode("hoten");
-                dataNhanVien.Rows[sd].Cells[1].Value = ho_ten.InnerText.ToString();
+                //XmlNode ho_ten = nhan_vien.SelectSingleNode("hoten");
+                //dataNhanVien.Rows[sd].Cells[1].Value = ho_ten.InnerText.ToString();
                 // tuong tu voi nut dia chi
-                XmlNode dia_chi = nhan_vien.SelectSingleNode("diachi");
-                dataNhanVien.Rows[sd].Cells[2].Value = dia_chi.InnerText.ToString();
+                //XmlNode dia_chi = nhan_vien.SelectSingleNode("diachi");
+                //dataNhanVien.Rows[sd].Cells[2].Value = dia_chi.InnerText.ToString();
 
-                dataNhanVien.Rows.Add();
+                string ma_nv = nhan_vien.Attributes["manv"].Value;
+                string ho_ten = nhan_vien.SelectSingleNode("hoten").InnerText;
+                string dia_chi = nhan_vien.SelectSingleNode("diachi").InnerText;
 
-                sd++;
+                dataNhanVien.Rows.Add(ma_nv, ho_ten, dia_chi);
+
+                //sd++;
             }
         }
         private void FormLoaded(object sender, EventArgs e)
@@ -64,8 +68,7 @@ namespace Buoi4
         private void btnAdd_Click(object sender, EventArgs e)
         {
             doc.Load(file);
-            // truy xuat nut goc cua tai lieu
-            XmlElement goc = doc.DocumentElement;
+
             // tao mot nut nhan vien
             XmlNode nhan_vien = doc.CreateElement("nhanvien");
             // tao thuoc tinh @manv cho phan tu nhan vien
@@ -88,7 +91,7 @@ namespace Buoi4
             nhan_vien.AppendChild(dia_chi);
 
             // them nut nhan vien vao nut goc
-            goc.AppendChild(nhan_vien);
+            doc.DocumentElement.AppendChild(nhan_vien);
 
             // luu tep va hien thi lai datagrid
             doc.Save(file);
@@ -100,10 +103,9 @@ namespace Buoi4
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             doc.Load(file);
-            XmlElement goc = doc.DocumentElement;
 
             // xac dinh nut nhan vien can sua
-            XmlNode nv_cu = goc.SelectSingleNode("/ds/nhanvien[@manv='" + txtMa.Text + "']");
+            XmlNode nv_cu = doc.DocumentElement.SelectSingleNode("/ds/nhanvien[@manv='" + txtMa.Text + "']");
 
             // tao nhan vien moi 
             XmlNode nv_moi = doc.CreateElement("nhanvien");
@@ -118,7 +120,7 @@ namespace Buoi4
             nv_moi.AppendChild(dia_chi);
 
             // thay the nut nhan vien cu bang nut nhan vien moi
-            goc.ReplaceChild(nv_moi, nv_cu);
+            doc.DocumentElement.ReplaceChild(nv_moi, nv_cu);
             doc.Save(file);
             HienThi();
 
@@ -128,13 +130,12 @@ namespace Buoi4
         private void btnDelete_Click(object sender, EventArgs e)
         {
             doc.Load(file);
-            XmlElement goc = doc.DocumentElement;
 
             // xac dinh nut nhan vien can xoa
-            XmlNode nv_xoa = goc.SelectSingleNode("/ds/nhanvien[@manv='" + txtMa.Text + "']");
+            XmlNode nv_xoa = doc.DocumentElement.SelectSingleNode("/ds/nhanvien[@manv='" + txtMa.Text + "']");
 
             // xoa nut nhan vien
-            goc.RemoveChild(nv_xoa);
+            doc.DocumentElement.RemoveChild(nv_xoa);
             doc.Save(file);
             HienThi();
 

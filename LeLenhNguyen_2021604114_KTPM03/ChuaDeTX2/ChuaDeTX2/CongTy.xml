@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<congty>
+  <nhanvien>
+    <manv>m02</manv>
+    <hoten>Nông Mạnh</hoten>
+    <noisinh>Lạng Sơn</noisinh>
+    <ngoaingu tennn="Anh">
+      <trinhdo>C2</trinhdo>
+    </ngoaingu>
+  </nhanvien>
+  <nhanvien>
+    <manv>m03</manv>
+    <hoten>Đình Tăng</hoten>
+    <noisinh>Nghệ An</noisinh>
+    <ngoaingu tennn="Trung">
+      <trinhdo>C2</trinhdo>
+    </ngoaingu>
+  </nhanvien>
+  <nhanvien>
+    <manv>m01</manv>
+    <hoten>Mai Lan Nguyễn</hoten>
+    <noisinh>Hà Nội</noisinh>
+    <ngoaingu tennn="Anh">
+      <trinhdo>B2</trinhdo>
+    </ngoaingu>
+  </nhanvien>
+</congty>
