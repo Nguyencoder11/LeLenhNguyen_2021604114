@@ -73,6 +73,7 @@ namespace ChuaDeTX2
         {
             d = e.RowIndex;
             txtMaNV.Text = dataNhanVien.Rows[d].Cells[0].Value.ToString();
+            txtMaNV.ReadOnly = true;
             txtHoTen.Text = dataNhanVien.Rows[d].Cells[1].Value.ToString();
             txtNoiSinh.Text = dataNhanVien.Rows[d].Cells[2].Value.ToString();
             txtNgoaiNgu.Text = dataNhanVien.Rows[d].Cells[3].Value.ToString();
@@ -128,10 +129,11 @@ namespace ChuaDeTX2
         private void btnSua_Click(object sender, EventArgs e)
         {
             doc.Load(file);
+            
             string noisinh = txtNoiSinh.Text.Trim();
             string tennn = txtNgoaiNgu.Text.Trim();
 
-            XmlNode nhanvien = doc.SelectSingleNode($"/congty/nhanvien[noisinh='{noisinh}' and ngoaingu/@tennn='Anh']");
+            XmlNode nhanvien = doc.SelectSingleNode($"/congty/nhanvien[manv='{txtMaNV.Text.Trim()}' and noisinh='{noisinh}' and ngoaingu/@tennn='{tennn}']");
 
             if(nhanvien != null)
             {
@@ -145,11 +147,17 @@ namespace ChuaDeTX2
                     HienThi();
 
                     clearTextBox();
+
+                    txtMaNV.ReadOnly = false;
+                }
+                else
+                {
+                    MessageBox.Show("Không được sửa");
                 }
             }
             else
             {
-                MessageBox.Show("Không được sửa");
+                MessageBox.Show("Chưa chọn nhân viên");
             }
 
         }

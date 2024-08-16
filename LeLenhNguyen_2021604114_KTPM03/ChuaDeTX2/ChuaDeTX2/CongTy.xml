@@ -18,7 +18,15 @@
   </nhanvien>
   <nhanvien>
     <manv>m01</manv>
-    <hoten>Mai Lan Nguyễn</hoten>
+    <hoten>messsi</hoten>
+    <noisinh>Hà Nội</noisinh>
+    <ngoaingu tennn="Anh">
+      <trinhdo>B2</trinhdo>
+    </ngoaingu>
+  </nhanvien>
+  <nhanvien>
+    <manv>m04</manv>
+    <hoten>neymar JR</hoten>
     <noisinh>Hà Nội</noisinh>
     <ngoaingu tennn="Anh">
       <trinhdo>B2</trinhdo>
