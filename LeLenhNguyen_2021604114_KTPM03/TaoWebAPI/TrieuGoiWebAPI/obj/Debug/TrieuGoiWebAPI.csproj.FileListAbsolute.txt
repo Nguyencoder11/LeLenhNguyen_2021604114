@@ -1,0 +1,10 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\bin\Debug\TrieuGoiWebAPI.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\bin\Debug\TrieuGoiWebAPI.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\bin\Debug\TrieuGoiWebAPI.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.Form1.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.Properties.Resources.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.csproj.GenerateResource.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\TaoWebAPI\TrieuGoiWebAPI\obj\Debug\TrieuGoiWebAPI.pdb
