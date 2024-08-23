@@ -33,8 +33,10 @@ namespace TaoWebAPI.Controllers
         public bool ThemMoi(int ma, string ten, int gia, int madm)
         {
             SanPham sp = db.SanPhams.FirstOrDefault(x => x.Ma == ma);
-            if (sp == null) {
-                SanPham sp1 = new SanPham { 
+            if (sp == null)
+            {
+                SanPham sp1 = new SanPham
+                {
                     Ma = ma,
                     Ten = ten,
                     DonGia = gia,
@@ -52,7 +54,7 @@ namespace TaoWebAPI.Controllers
         public bool CapNhat(int ma, string ten, int gia, int madm)
         {
             SanPham sp = db.SanPhams.FirstOrDefault(x => x.Ma == ma);
-            if(sp != null)
+            if (sp != null)
             {
                 sp.Ma = ma;
                 sp.Ten = ten;
@@ -69,7 +71,8 @@ namespace TaoWebAPI.Controllers
         public bool xoa(int id)
         {
             SanPham sp = db.SanPhams.FirstOrDefault(x => x.Ma == id);
-            if (sp != null) {
+            if (sp != null)
+            {
                 db.SanPhams.Remove(sp);
                 db.SaveChanges();
                 return true;
