@@ -56,17 +56,25 @@ namespace TrieuGoiWebAPI
             WebResponse res = request.GetResponse();
             DataContractJsonSerializer js = new DataContractJsonSerializer(typeof(DanhMuc[]));
             object data = js.ReadObject(res.GetResponseStream());
-            DanhMuc[] arr = data as DanhMuc[];
-            cboDanhMuc.DataSource = arr;
+            DanhMuc[] arr1 = data as DanhMuc[];
+            cboDanhMuc.DataSource = arr1;
             cboDanhMuc.ValueMember = "MaDanhMuc";
             cboDanhMuc.DisplayMember = "TenDanhMuc";
+        }
 
+        private void dataDanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int d = e.RowIndex;
+            txtMaSP.Text = dataDanhSach.Rows[d].Cells[0].Value.ToString();
+            txtTenSP.Text = dataDanhSach.Rows[d].Cells[1].Value.ToString();
+            txtDonGia.Text = dataDanhSach.Rows[d].Cells[2].Value.ToString();
+            cboDanhMuc.SelectedValue = dataDanhSach.Rows[d].Cells[3].Value;
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
             // chuoi gia tri nhap tu form cho cac TS cua Web API them
-            string postString = string.Format("?ma={0}&ten={1}&gia={2}&madm={3}", txtMaSP.Text, txtTenSP.Text, txtDonGia.Text, cboDanhMuc.SelectedValue);
+            string postString = string.Format("?ma={0}&ten={1}&gia={2}&madm={3}", txtMaSP.Text.Trim(), txtTenSP.Text.Trim(), txtDonGia.Text.Trim(), cboDanhMuc.SelectedValue);
             // link goi API them 1 san pham da cai Web API len IIS
             string link = "http://localhost/hocrestful/api/sanpham/" + postString;
             // link goi API them 1 san pham chua cai Web API len IIS
@@ -95,7 +103,7 @@ namespace TrieuGoiWebAPI
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            string putString = string.Format("?ma={0}&ten={1}&gia={2}&madm={3}", txtMaSP.Text, txtTenSP.Text, txtDonGia.Text, cboDanhMuc.SelectedValue);
+            string putString = string.Format("?ma={0}&ten={1}&gia={2}&madm={3}", txtMaSP.Text.Trim(), txtTenSP.Text.Trim(), txtDonGia.Text.Trim(), cboDanhMuc.SelectedValue);
             string link = "http://localhost/hocrestful/api/sanpham/" + putString;
             // string link = "https://localhost:44363/api/sanpham/" + putString;
 
@@ -162,21 +170,12 @@ namespace TrieuGoiWebAPI
             }
         }
 
-        private void dataDanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int d = e.RowIndex;
-            txtMaSP.Text = dataDanhSach.Rows[d].Cells[0].Value.ToString();
-            txtTenSP.Text = dataDanhSach.Rows[d].Cells[1].Value.ToString();
-            txtDonGia.Text = dataDanhSach.Rows[d].Cells[2].Value.ToString();
-            cboDanhMuc.Text = dataDanhSach.Rows[d].Cells[3].Value.ToString();
-        }
 
         private void clearTextField()
         {
             txtMaSP.Text = null;
             txtTenSP.Text = null;
             txtDonGia.Text = null;
-            cboDanhMuc.Text = null;
         }
     }
 }

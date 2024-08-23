@@ -1,0 +1,13 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\bin\Debug\APIApp.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\bin\Debug\APIApp.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\bin\Debug\APIApp.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.Form1.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.Properties.Resources.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.csproj.GenerateResource.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\bin\Debug\Newtonsoft.Json.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\bin\Debug\Newtonsoft.Json.xml
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\APICreatingPackage\APIApp\obj\Debug\APIApp.csproj.Up2Date
