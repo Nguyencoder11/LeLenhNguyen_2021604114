@@ -129,6 +129,7 @@
             this.txtGioitinh.Name = "txtGioitinh";
             this.txtGioitinh.Size = new System.Drawing.Size(229, 26);
             this.txtGioitinh.TabIndex = 9;
+            this.txtGioitinh.TextChanged += new System.EventHandler(this.txtGioitinh_TextChanged);
             // 
             // txtHsl
             // 

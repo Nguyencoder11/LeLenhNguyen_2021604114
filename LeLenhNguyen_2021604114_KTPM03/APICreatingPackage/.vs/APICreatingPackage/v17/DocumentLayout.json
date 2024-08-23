@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\APICreatingPackage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1500209-5388-4D0E-A549-2A112F181979}|APICreatingPackage\\APICreatingPackage.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\apicreatingpackage\\apicreatingpackage\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1500209-5388-4D0E-A549-2A112F181979}|APICreatingPackage\\APICreatingPackage.csproj|solutionrelative:apicreatingpackage\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B022A6D-AA5F-49F4-BAC6-50B89F383774}|APIApp\\APIApp.csproj|E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\APICreatingPackage\\apiapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B022A6D-AA5F-49F4-BAC6-50B89F383774}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1500209-5388-4D0E-A549-2A112F181979}|APICreatingPackage\\APICreatingPackage.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\apicreatingpackage\\apicreatingpackage\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1500209-5388-4D0E-A549-2A112F181979}|APICreatingPackage\\APICreatingPackage.csproj|solutionrelative:apicreatingpackage\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 163,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NhanVienController.cs",
               "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\APICreatingPackage\\APICreatingPackage\\Controllers\\NhanVienController.cs",
               "RelativeDocumentMoniker": "APICreatingPackage\\Controllers\\NhanVienController.cs",
               "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\APICreatingPackage\\APICreatingPackage\\Controllers\\NhanVienController.cs",
               "RelativeToolTip": "APICreatingPackage\\Controllers\\NhanVienController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwEYAAAAdAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T18:31:08.135Z",
+              "WhenOpened": "2024-08-23T06:30:24.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\APICreatingPackage\\APIApp\\Form1.cs",
               "RelativeDocumentMoniker": "APIApp\\Form1.cs",
               "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\APICreatingPackage\\APIApp\\Form1.cs",
               "RelativeToolTip": "APIApp\\Form1.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAzwEUAAADfAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAnwIcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T11:05:43.852Z",
               "EditorCaption": ""

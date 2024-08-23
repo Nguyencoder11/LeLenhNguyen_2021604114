@@ -128,7 +128,17 @@ namespace APIApp
 
         private void btnTimGT_Click(object sender, EventArgs e)
         {
+            string gender = txtGioitinh.Text;
+            string url = "http://localhost/qlnvrestful/api/nhanvien?gender=" + gender;
 
+            HttpWebRequest request = WebRequest.CreateHttp(url);
+            WebResponse response = request.GetResponse();
+            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            {
+                string json = reader.ReadToEnd();
+                NhanVien[] arr = JsonConvert.DeserializeObject<NhanVien[]>(json);
+                dataNhanvien.DataSource = arr;
+            }
         }
 
         private void clearTextBox()
@@ -138,6 +148,14 @@ namespace APIApp
             txtNgaySinh.Text = null;
             txtGioitinh.Text = null;
             txtHsl.Text = null;
+        }
+
+        private void txtGioitinh_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtGioitinh.Text))
+            {
+                LoadDataView();
+            }
         }
     }
 }
