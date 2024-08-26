@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLySanPhamDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NhomHang">
+    <Key>
+      <PropertyRef Name="MaNhomHang" />
+    </Key>
+    <Property Name="MaNhomHang" Type="int" Nullable="false" />
+    <Property Name="TenNhomHang" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="int" Nullable="false" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="50" />
+    <Property Name="DonGia" Type="float" />
+    <Property Name="SoLuongBan" Type="int" />
+    <Property Name="TienBan" Type="float" />
+    <Property Name="MaNhomHang" Type="int" />
+  </EntityType>
+  <Association Name="FK__SanPham__MaNhomH__38996AB5">
+    <End Role="NhomHang" Type="Self.NhomHang" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhomHang">
+        <PropertyRef Name="MaNhomHang" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaNhomHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QuanLySanPhamDBModelStoreContainer">
+    <EntitySet Name="NhomHang" EntityType="Self.NhomHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanPham" EntityType="Self.SanPham" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__SanPham__MaNhomH__38996AB5" Association="Self.FK__SanPham__MaNhomH__38996AB5">
+      <End Role="NhomHang" EntitySet="NhomHang" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

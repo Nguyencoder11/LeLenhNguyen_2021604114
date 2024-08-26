@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLySanPhamDBModelStoreContainer" CdmEntityContainer="QuanLySanPhamDBEntities">
+    <EntitySetMapping Name="NhomHangs">
+      <EntityTypeMapping TypeName="QuanLySanPhamDBModel.NhomHang">
+        <MappingFragment StoreEntitySet="NhomHang">
+          <ScalarProperty Name="MaNhomHang" ColumnName="MaNhomHang" />
+          <ScalarProperty Name="TenNhomHang" ColumnName="TenNhomHang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="QuanLySanPhamDBModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="SoLuongBan" ColumnName="SoLuongBan" />
+          <ScalarProperty Name="TienBan" ColumnName="TienBan" />
+          <ScalarProperty Name="MaNhomHang" ColumnName="MaNhomHang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

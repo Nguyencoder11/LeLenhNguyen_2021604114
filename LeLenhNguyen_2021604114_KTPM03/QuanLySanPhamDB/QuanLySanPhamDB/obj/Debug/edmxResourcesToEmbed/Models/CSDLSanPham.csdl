@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLySanPhamDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NhomHang">
+    <Key>
+      <PropertyRef Name="MaNhomHang" />
+    </Key>
+    <Property Name="MaNhomHang" Type="Int32" Nullable="false" />
+    <Property Name="TenNhomHang" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPhams" Relationship="Self.FK__SanPham__MaNhomH__38996AB5" FromRole="NhomHang" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="Int32" Nullable="false" />
+    <Property Name="TenSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DonGia" Type="Double" />
+    <Property Name="SoLuongBan" Type="Int32" />
+    <Property Name="TienBan" Type="Double" />
+    <Property Name="MaNhomHang" Type="Int32" />
+    <NavigationProperty Name="NhomHang" Relationship="Self.FK__SanPham__MaNhomH__38996AB5" FromRole="SanPham" ToRole="NhomHang" />
+  </EntityType>
+  <Association Name="FK__SanPham__MaNhomH__38996AB5">
+    <End Role="NhomHang" Type="Self.NhomHang" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhomHang">
+        <PropertyRef Name="MaNhomHang" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaNhomHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QuanLySanPhamDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NhomHangs" EntityType="Self.NhomHang" />
+    <EntitySet Name="SanPhams" EntityType="Self.SanPham" />
+    <AssociationSet Name="FK__SanPham__MaNhomH__38996AB5" Association="Self.FK__SanPham__MaNhomH__38996AB5">
+      <End Role="NhomHang" EntitySet="NhomHangs" />
+      <End Role="SanPham" EntitySet="SanPhams" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
