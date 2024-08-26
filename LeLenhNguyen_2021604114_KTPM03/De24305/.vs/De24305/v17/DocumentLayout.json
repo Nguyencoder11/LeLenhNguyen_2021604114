@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E101776B-127C-494D-8A5F-787E6B511324}|WeatherApp\\WeatherApp.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\de24305\\weatherapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E101776B-127C-494D-8A5F-787E6B511324}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE34D2D-DF87-4B78-9AD6-FA149657ADCE}|De24305\\De24305.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\de24305\\de24305\\controllers\\thoitiettrongngaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE34D2D-DF87-4B78-9AD6-FA149657ADCE}|De24305\\De24305.csproj|solutionrelative:de24305\\controllers\\thoitiettrongngaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE34D2D-DF87-4B78-9AD6-FA149657ADCE}|De24305\\De24305.csproj|e:\\haui_learn\\semester 7\\lelenhnguyen_2021604114\\lelenhnguyen_2021604114_ktpm03\\de24305\\de24305\\models\\csdltt.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0EE34D2D-DF87-4B78-9AD6-FA149657ADCE}|De24305\\De24305.csproj|solutionrelative:de24305\\models\\csdltt.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\WeatherApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Form1.cs",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\WeatherApp\\Form1.cs",
+              "RelativeToolTip": "WeatherApp\\Form1.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAApwEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T01:27:21.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThoiTietTrongNgayController.cs",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\De24305\\Controllers\\ThoiTietTrongNgayController.cs",
+              "RelativeDocumentMoniker": "De24305\\Controllers\\ThoiTietTrongNgayController.cs",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\De24305\\Controllers\\ThoiTietTrongNgayController.cs",
+              "RelativeToolTip": "De24305\\Controllers\\ThoiTietTrongNgayController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T01:00:12.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CSDLTT.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\De24305\\Models\\CSDLTT.edmx",
+              "RelativeDocumentMoniker": "De24305\\Models\\CSDLTT.edmx",
+              "ToolTip": "E:\\HaUI_Learn\\Semester 7\\LeLenhNguyen_2021604114\\LeLenhNguyen_2021604114_KTPM03\\De24305\\De24305\\Models\\CSDLTT.edmx [Diagram1]",
+              "RelativeToolTip": "De24305\\Models\\CSDLTT.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-26T00:58:59.703Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\bin\Debug\WeatherApp.exe.config
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\bin\Debug\WeatherApp.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\bin\Debug\WeatherApp.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.csproj.AssemblyReference.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.Form1.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.Properties.Resources.resources
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.csproj.CoreCompileInputs.cache
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.exe
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.pdb
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\bin\Debug\Newtonsoft.Json.dll
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\bin\Debug\Newtonsoft.Json.xml
+E:\HaUI_Learn\Semester 7\LeLenhNguyen_2021604114\LeLenhNguyen_2021604114_KTPM03\De24305\WeatherApp\obj\Debug\WeatherApp.csproj.Up2Date
